@@ -1,0 +1,26 @@
+.navbar,
+.navbar-default {
+  background-color: #fe5f55;
+  border: none;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.btn-default {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  align-items: center;
+}
+
+.btn-default:hover {
+  color: #fe5f55;
+  background-color: white;
+  border: 1px solid white;
+}
