@@ -1,4 +1,4 @@
-.show-grid {
+.show-grid-top {
   margin-top: 80px;
 }
 .event {
@@ -29,4 +29,14 @@ h2 {
 p {
   color: white;
   font-size: 20px;
+}
+
+.btn-success {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 8px 30px;
+  background-color: #2ecc71;
+  border: none;
 }

@@ -1,11 +1,11 @@
 import React from "react";
-import { Modal, Button, Grid, Row, Image, Col } from "react-bootstrap";
+import { Button, Grid, Row, ButtonToolbar, Col } from "react-bootstrap";
 import "./Modal.css";
 
 const ModalComponent = () => {
   return (
     <Grid>
-      <Row className="show-grid" classID="modal">
+      <Row className="show-grid-top" classID="modal">
         <Col xs={12} md={6} mdOffset={1} className="event" />
         <Col xs={12} md={4} className="info">
           <Row className="show-grid">
@@ -27,6 +27,13 @@ const ModalComponent = () => {
               </p>
             </Col>
           </Row>
+        </Col>
+      </Row>
+      <Row className="show-grid">
+        <Col md={6} mdOffset={5}>
+          <ButtonToolbar>
+            <Button bsStyle="success">Register</Button>
+          </ButtonToolbar>
         </Col>
       </Row>
     </Grid>
