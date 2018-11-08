@@ -9,7 +9,13 @@ const ModalComponent = () => {
         <Col xs={12} md={6} mdOffset={1} className="event" />
         <Col xs={12} md={4} className="info">
           <Row className="show-grid">
-            <Col md={10} mdOffset={1} className="event-info">
+            <Col
+              md={10}
+              mdOffset={1}
+              xs={10}
+              xsOffset={2}
+              className="event-info"
+            >
               <div className="date">
                 05 <br /> Nov
               </div>
