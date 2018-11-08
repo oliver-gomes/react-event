@@ -1,0 +1,14 @@
+.modal-content {
+  margin-top: 200px;
+}
+
+.event {
+  background: url("../resources/event-bg.jpg");
+  height: 300px;
+  background-size: cover;
+}
+
+.info {
+  background-color: #fe5f55;
+  height: 300px;
+}
