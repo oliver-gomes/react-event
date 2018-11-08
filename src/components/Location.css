@@ -1,0 +1,10 @@
+.location_wrapper {
+  position: relative;
+  margin: 80px 0px;
+}
+
+.location_tag {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
