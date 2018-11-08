@@ -1,0 +1,16 @@
+.description {
+  margin-top: 80px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fe5f55;
+}
+
+.details {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #485867;
+}

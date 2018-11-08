@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import ModalComponent from "./components/Modal";
+import Description from "./components/Description";
+import Location from "./components/Location";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -9,6 +12,9 @@ class App extends Component {
       <div className="App">
         <Header />
         <ModalComponent />
+        <Description />
+        <Location />
+        <Footer />
       </div>
     );
   }
