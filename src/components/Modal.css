@@ -1,7 +1,6 @@
-.modal-content {
-  margin-top: 200px;
+.show-grid {
+  margin-top: 80px;
 }
-
 .event {
   background: url("../resources/event-bg.jpg");
   height: 300px;
@@ -11,4 +10,27 @@
 .info {
   background-color: #fe5f55;
   height: 300px;
+}
+
+.date {
+  background-color: rgba(216, 216, 216, 0.2);
+  width: 20%;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 2px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+}
+
+.event-info {
+  margin-top: 40px;
 }
