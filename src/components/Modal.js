@@ -29,13 +29,14 @@ const ModalComponent = () => {
           </Row>
         </Col>
       </Row>
-      <Row className="show-grid">
-        <Col md={6} mdOffset={5}>
+      <Row className="show-grid ">
+        <Col xs={10} xsOffset={2} md={6} mdOffset={5}>
           <ButtonToolbar>
             <Button bsStyle="success">Register</Button>
           </ButtonToolbar>
         </Col>
       </Row>
+      <hr />
     </Grid>
   );
 };

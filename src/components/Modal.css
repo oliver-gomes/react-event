@@ -20,6 +20,7 @@
   padding: 2px;
   text-align: center;
   color: white;
+  margin-top: 50px;
 }
 
 h2 {
@@ -39,4 +40,12 @@ p {
   padding: 8px 30px;
   background-color: #2ecc71;
   border: none;
+}
+
+.button-row {
+  border: 1px solid grey;
+}
+
+hr {
+  width: 50%;
 }
